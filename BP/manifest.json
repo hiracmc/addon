@@ -1,1 +1,36 @@
-
+```json
+{
+    "format_version": 2,
+    "header": {
+        "name": "BehaviorTemp",
+        "description": "By C1ickP",
+        "min_engine_version": [1,21,10],
+        "uuid": "6c9010ff-043a-4f9e-9c0a-aa993025feda",
+        "version": [1,0,0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "90b02254-80fb-449d-8469-954fceabb4e4",
+            "version": [1,0,0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "2a22925c-37e9-4151-a79d-33fd4783e471",
+            "entry": "scripts/script.js",
+            "version": [1,0,0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0-alpha"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0-alpha"
+        }
+    ]
+}
+```
