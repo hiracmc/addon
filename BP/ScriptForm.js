@@ -8,7 +8,4 @@ const form1 = new ActionFormData()
     .button("Button2")
     .button("Button3");
 
-world.afterEvents.itemUse.subscribe(ev => {
-    const { itemStack, source } = ev;
-        case "minecraft:compass" : form1.show(source); break;
-  });
+
